@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#122439">
+  <meta name="description" content="성적만으로는 설명할 수 없는 학생부종합전형의 차이. CLEAR 구조로 학생의 실제 학업역량을 평가할 근거를 발견하는 방법. 《생기부의 결정적 차이》 전자책과 과목별 세특 탐구 주제 300개.">
+  <meta property="og:title" content="생기부의 결정적 차이 | 내신 외에 놓치고 있는 입시 경쟁력">
+  <meta property="og:description" content="탐구 10개보다 평가 근거가 있는 한 문단. CLEAR 5단계와 300개 과목별 세특 주제를 만나보세요.">
+  <meta property="og:type" content="website">
+  <title>생기부의 결정적 차이 | 전자책 + 300개 과목별 세특 주제</title>
+  <style>
+    :root{
+      --ink:#152437;--deep:#122439;--deep2:#1a334d;--mid:#46596b;--muted:#697a89;
+      --cream:#faf9f6;--paper:#fff;--line:#e4e7e7;--mint:#e8f5f0;--green:#13765d;
+      --lime:#b9ecb6;--gold:#d8b26e;--rose:#fff2ee;--container:1120px;
+    }
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:86px}
+    body{margin:0;background:var(--cream);color:var(--ink);font-family:Pretendard,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;letter-spacing:-.035em;line-height:1.78;word-break:keep-all;-webkit-font-smoothing:antialiased}
+    h1,h2,h3,p,blockquote{margin:0}h1,h2,h3{line-height:1.32;letter-spacing:-.065em}h2{font-size:clamp(27px,4.1vw,46px);font-weight:820}h3{font-size:clamp(18px,2.3vw,23px);font-weight:800}
+    a{text-decoration:none;color:inherit}button{font:inherit}strong{font-weight:830}b{font-weight:800}
+    .wrap{width:min(var(--container),calc(100% - 48px));margin-inline:auto}.narrow{width:min(880px,calc(100% - 48px));margin-inline:auto}
+    .eyebrow{font-size:12px;font-weight:850;letter-spacing:.15em;text-transform:uppercase;color:var(--green)}.eyebrow.light{color:#a5e9c5}
+    .muted{color:var(--muted)}.visually-hidden{position:absolute;clip:rect(0,0,0,0);width:1px;height:1px;white-space:nowrap;overflow:hidden}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:54px;padding:13px 25px;border:0;border-radius:11px;background:#aee8bc;color:#102b24;font-size:15px;line-height:1.35;font-weight:850;text-align:center;cursor:pointer;box-shadow:0 7px 24px rgba(12,67,42,.12);transition:background .2s, transform .2s}
+    .btn:hover{background:#c6f0ce;transform:translateY(-2px)}.btn:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #f7ba6b;outline-offset:4px}
+    .btn.navy{background:var(--deep);color:white}.btn.navy:hover{background:#244465}.btn.line{border:1px solid #89a2a1;color:var(--deep);background:transparent;box-shadow:none}.btn.line:hover{background:white}.btn.wide{width:100%;font-size:18px;min-height:62px}
+    .header{height:68px;background:rgba(250,249,246,.97);position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);border-bottom:1px solid #e9eceb}.header .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:14px}.logo{display:flex;align-items:center;gap:11px;font-size:16px;font-weight:900;color:var(--deep);letter-spacing:-.045em}.logo-mark{height:25px;width:25px;display:grid;place-items:center;border:2px solid var(--deep);border-radius:7px;line-height:1;font-size:14px}.header .btn{min-height:38px;font-size:12px;padding:7px 15px}
+    .hero{background:radial-gradient(circle at 86% 16%,#315b64 0,transparent 34%),linear-gradient(135deg,#122439 0%,#182f44 67%,#1c4d50 100%);color:white;padding:70px 0 84px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1fr .96fr;align-items:center;gap:55px}.hero h1{font-size:clamp(36px,4.6vw,60px);margin:22px 0 25px;font-weight:890}.hero h1 em{font-style:normal;color:#b5efc5}.hero-lead{font-size:clamp(16px,1.7vw,19px);color:#cfdee3;line-height:1.83;max-width:610px}.hero-lead strong{color:white}.hero-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:26px}.hero-meta span{border:1px solid #456476;border-radius:30px;padding:5px 11px;color:#cde0e2;font-size:12px;font-weight:720}.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:32px}.hero-actions .btn.line{color:white;border-color:#6f939c}.hero-actions .btn.line:hover{background:#ffffff14}
+    .video-unit{border-radius:22px;padding:9px;border:1px solid #54717b;background:#102231;box-shadow:0 26px 65px rgba(0,0,0,.26);transform:rotate(.6deg)}.video-frame{aspect-ratio:16/10;border-radius:15px;background:radial-gradient(circle at 70% 35%,#2b6564 0%,transparent 47%),linear-gradient(125deg,#102234,#1b394b);display:grid;place-items:center;position:relative;overflow:hidden}.video-art{position:absolute;inset:0;opacity:.15;background-image:linear-gradient(90deg,#fff 1px,transparent 1px),linear-gradient(#fff 1px,transparent 1px);background-size:33px 33px;mask-image:linear-gradient(135deg,transparent,black)}
+    .video-placeholder{z-index:1;text-align:center;padding:22px 15px;max-width:90%}.video-placeholder .play{height:68px;width:68px;border-radius:50%;background:#ffffff20;border:2px solid #b8efc5;display:grid;place-items:center;font-size:25px;margin:0 auto 18px;padding-left:4px}.video-placeholder .small-top{font-size:12px;letter-spacing:.15em;color:#b2f1cc;font-weight:800;margin-bottom:8px}.video-placeholder strong{font-size:clamp(20px,2vw,26px);line-height:1.48;display:block}.video-placeholder p{font-size:12px;color:#abc5cc;margin-top:13px}.video-frame video,.video-frame iframe{display:none;width:100%;height:100%;border:0;position:absolute;inset:0;z-index:3;background:#000}.video-foot{display:flex;align-items:center;justify-content:space-between;color:#bfd1d7;font-size:12px;padding:14px 5px 5px}.video-foot span:last-child{color:#c1f1cb}
+    section{padding:94px 0}.section-top{text-align:center;margin:0 auto 43px;max-width:820px}.section-top h2{margin:12px 0 18px}.section-top p.desc{font-size:17px;color:var(--mid)}
+    .diagnosis{background:#fff}.problem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.problem{padding:30px 28px;border:1px solid var(--line);border-radius:16px;background:#fff}.problem-num{font-size:12px;color:var(--green);font-weight:900;letter-spacing:.12em}.problem h3{margin:12px 0 12px}.problem p{font-size:15px;color:#687886}.problem strong{color:var(--ink)}
+    .compare{background:#f6f7f3}.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.record{border-radius:17px;padding:30px 29px;min-height:355px}.record.a{background:#f3f0ed;border:1px solid #dfdad5}.record.b{background:#ecf7ef;border:1px solid #c6e4d1}.record .label{display:inline-block;font-size:12px;font-weight:850;letter-spacing:.01em;border-radius:5px;padding:5px 9px;margin-bottom:20px;background:white;color:#53515a}.record.b .label{color:#126d50}.record h3{font-size:18px;margin-bottom:18px}.record blockquote{font-size:clamp(16px,1.6vw,18px);font-weight:650;line-height:1.87}.record-foot{font-size:13px;margin-top:23px;padding-top:15px;border-top:1px solid #ddd8d2;color:#69767a}.record.b .record-foot{border-color:#c9dfcd}.takeaway{margin-top:23px;border-left:4px solid var(--green);background:#fff;padding:21px 25px;font-size:18px;font-weight:750}.fineprint{font-size:12px;color:#7d888b;margin-top:16px;line-height:1.7}
+    .method{background:var(--deep);color:white}.method .section-top .desc{color:#bdcdd7}.step-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.method-step{padding:25px 18px;border-radius:14px;border:1px solid #3f556a;background:#1b344b;min-height:175px}.method-step .letter{font-size:34px;line-height:1;color:#b3efbe;font-weight:860}.method-step strong{display:block;margin:13px 0 3px;font-size:16px}.method-step p{font-size:13px;color:#c3d0d7}.method .method-foot{text-align:center;font-size:14px;color:#c1d2d9;margin-top:26px}
+    .grading{background:#fff}.grade-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:70px;align-items:center}.grading h2{margin:14px 0 23px}.grading .lead{font-size:17px;color:var(--mid)}.grading .lead + .lead{margin-top:15px}.grade-card{background:#f7f8f5;border:1px solid #e1e5e2;border-radius:19px;padding:32px}.grade-card h3{font-size:18px;margin-bottom:22px}.grade-split{display:grid;grid-template-columns:1fr 1fr;gap:12px}.grade-metric{border-radius:12px;background:white;border:1px solid #e3e8e5;padding:22px 16px}.grade-metric .kicker{font-size:13px;color:#5a6c78}.grade-metric .value{font-size:clamp(35px,4vw,53px);font-weight:900;color:var(--deep);line-height:1.28;letter-spacing:-.075em;margin:10px 0 5px}.grade-metric.current{background:#e7f4e8;border-color:#bfdec9}.grade-metric.current .value{color:#0b7356}.grade-note{font-size:13px;color:#718088;margin-top:18px}.grade-card a{font-size:12px;color:#0d6958;text-decoration:underline;text-underline-offset:3px}
+    .author{background:#f2f1ed}.author-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:65px;align-items:center}.author-panel{background:var(--deep);color:white;border-radius:20px;padding:45px 37px;position:relative;overflow:hidden}.author-panel:after{content:"“";position:absolute;right:13px;top:-60px;font-size:240px;color:#ffffff0c;font-family:serif}.author-panel .author-title{font-size:12px;color:#a7dcbf;letter-spacing:.1em;font-weight:800}.author-panel .big{font-size:clamp(36px,4vw,51px);line-height:1.3;font-weight:850;margin:24px 0}.author-panel .big span{color:#b6ecc3}.author-panel p{font-size:15px;color:#ccdce0}.author-main h2{margin:15px 0 21px}.author-main p{font-size:16px;color:var(--mid);margin-bottom:16px}.author-main .signature{font-weight:900;color:var(--deep);margin-top:24px}.author-main .author-note{font-size:12px;color:#7b8288}
+    .product{background:#fff}.product-grid{display:grid;grid-template-columns:.83fr 1.17fr;gap:75px;align-items:center}.book-stage{display:flex;align-items:center;justify-content:center;position:relative;min-height:470px}.book-stage:after{content:"";position:absolute;bottom:22px;left:18%;width:70%;height:30px;border-radius:50%;background:#152c3e20;filter:blur(16px)}.book{height:405px;width:287px;background:linear-gradient(134deg,#0b1e33,#234356 65%,#196655);color:white;box-shadow:-7px 8px 0 #9bacae,13px 15px 26px #172c343f;transform:rotate(-5deg);border-radius:4px 12px 12px 4px;padding:28px 27px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;z-index:1}.book:before{content:"";position:absolute;width:210px;height:210px;border-radius:50%;border:1px solid #a5e9c955;right:-75px;top:80px;box-shadow:0 0 0 35px #a5e9c90d,0 0 0 70px #a5e9c908}.book .toptxt{font-size:10px;font-weight:780;letter-spacing:.15em;color:#bbf0cd}.book .book-title{font-size:39px;line-height:1.25;font-weight:900;letter-spacing:-.07em;position:relative}.book .book-title i{font-style:normal;color:#b4f4bf}.book .book-sub{font-size:13px;margin-top:16px;color:#c6e5e0;position:relative}.book .bottomtxt{font-size:14px;font-weight:760;color:#d5e9e7}.product h2{margin:12px 0 17px}.product .lead{color:var(--mid);font-size:17px;margin-bottom:26px}.items{display:grid;gap:12px}.product-item{display:flex;align-items:flex-start;gap:13px;padding:16px 0;border-bottom:1px solid #e7eae8}.product-item .count{flex:0 0 45px;height:45px;border-radius:10px;background:#e7f4ed;color:#0e654c;font-size:20px;font-weight:900;display:grid;place-items:center}.product-item strong{display:block;font-size:16px}.product-item p{color:#657582;font-size:14px;margin-top:3px}.product-actions{margin-top:27px;display:flex;flex-wrap:wrap;gap:11px}.topics{background:#f7f8f4}.topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.topic-card{padding:21px;border-radius:14px;background:white;border:1px solid #e4e8e3}.topic-card span{display:block;color:var(--green);font-size:12px;font-weight:800;margin-bottom:8px}.topic-card strong{font-size:16px;line-height:1.6}.topic-caption{font-size:13px;color:#707e87;text-align:center;margin-top:20px}
+    .pricing{background:var(--deep);color:white}.pricing .section-top .desc{color:#c3d2d8}.price-panel{width:min(700px,100%);margin:auto;background:white;border-radius:20px;padding:40px 43px;color:var(--ink);box-shadow:0 16px 55px #050d1840}.package{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;padding-bottom:25px;border-bottom:1px solid var(--line)}.package .name{font-size:21px;font-weight:900;line-height:1.4}.package .tag{display:inline-block;padding:3px 8px;background:#e8f4ef;color:#187457;border-radius:6px;font-size:12px;font-weight:800;margin-top:8px}.package .price{text-align:right;white-space:nowrap}.price-number{font-size:46px;line-height:1.1;font-weight:900;letter-spacing:-.08em}.price-number small{font-size:18px;letter-spacing:-.04em}.payment-list{padding:22px 0 12px;display:grid;gap:13px}.payment-row{display:flex;gap:12px;align-items:flex-start;font-size:15px}.check{flex:0 0 22px;height:22px;border-radius:50%;background:#e4f4e9;color:#136e50;font-size:13px;font-weight:900;display:grid;place-items:center}.purchase-hint{text-align:center;margin-top:13px;font-size:12px;color:#6a7c84}.buy-status{display:none;margin-top:16px;padding:13px;border:1px solid #e7d3a1;background:#fff9eb;border-radius:10px;color:#755921;font-size:13px}.pricing .legal-note{font-size:12px;line-height:1.75;color:#bfcdd3;max-width:730px;text-align:center;margin:22px auto 0}
+    .faq{background:#fff}.faq-list{max-width:860px;margin:auto}.faq details{border-bottom:1px solid #e5e9e7;padding:5px 0}.faq summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 7px;font-size:17px;font-weight:810;cursor:pointer}.faq summary::-webkit-details-marker{display:none}.faq summary:after{content:"+";font-size:23px;color:#49816d;line-height:1}.faq details[open] summary:after{content:"−"}.faq details p{padding:0 30px 21px 7px;color:var(--mid);font-size:15px;line-height:1.85}
+    .last{background:#e6f3e9;padding:85px 0;text-align:center}.last h2{margin:10px auto 20px}.last p{margin:0 auto 26px;font-size:18px;color:#456256;max-width:760px}
+    .footer{background:#0d1b2a;color:#c3d0d8;padding:37px 0 90px}.footer .footer-top{display:flex;justify-content:space-between;gap:22px;align-items:start}.footer strong{font-size:16px;color:#fff}.footer p{font-size:12px;margin-top:10px;line-height:1.8;max-width:800px}.footer a{color:#c9e7d5;text-decoration:underline;text-underline-offset:3px}.footer .legal{border-top:1px solid #294053;margin-top:22px;padding-top:17px}
+    .mobile-dock{display:none}.toast{position:fixed;bottom:90px;left:50%;transform:translate(-50%,30px);background:#152437;color:white;border-radius:12px;padding:15px 20px;z-index:100;max-width:calc(100% - 32px);box-shadow:0 8px 35px #111a2433;pointer-events:none;opacity:0;transition:opacity .2s,transform .2s;font-size:13px;text-align:center}.toast.show{opacity:1;transform:translate(-50%,0)}
+    @media(max-width:950px){.hero-grid{gap:34px}.grade-grid,.author-grid,.product-grid{gap:34px}.step-grid{grid-template-columns:repeat(3,1fr)}.method-step{min-height:142px}.video-frame{aspect-ratio:16/11}.hero h1{font-size:clamp(32px,4.6vw,48px)}}
+    @media(max-width:740px){.wrap,.narrow{width:calc(100% - 36px)}section{padding:72px 0}.hero{padding:44px 0 68px}.hero-grid,.grade-grid,.author-grid,.product-grid{grid-template-columns:1fr}.hero-grid{gap:36px}.hero h1{font-size:clamp(33px,8vw,48px);margin-top:15px}.hero-lead{font-size:16px}.hero-meta{margin-top:21px}.hero-actions{margin-top:24px}.video-unit{transform:none}.video-frame{aspect-ratio:16/10}.problem-grid,.topic-grid{grid-template-columns:1fr}.compare-grid{grid-template-columns:1fr}.record{min-height:auto}.grade-grid{gap:29px}.author-grid{gap:24px}.author-panel{padding:31px 26px}.book-stage{min-height:430px}.product-grid{gap:10px}.step-grid{grid-template-columns:repeat(2,1fr)}.method-step{min-height:140px}.price-panel{padding:28px 23px}.footer .footer-top{display:block}.mobile-dock{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:40;align-items:center;justify-content:space-between;gap:11px;background:#fff;border-top:1px solid #dce4df;box-shadow:0 -5px 25px #00000011;padding:10px 18px calc(10px + env(safe-area-inset-bottom))}.mobile-dock small{display:block;font-size:11px;color:#627575;line-height:1.4}.mobile-dock strong{font-size:18px;color:var(--ink);line-height:1.2}.mobile-dock .btn{min-height:43px;padding:9px 16px;font-size:13px}.footer{padding-bottom:135px}.toast{bottom:100px}}
+    @media(max-width:425px){.hero-actions .btn{width:100%}.logo{font-size:14px}.grade-card{padding:20px}.grade-metric{padding:18px 11px}.grade-metric .value{font-size:37px}.record{padding:24px 22px}.step-grid{gap:9px}.method-step{padding:22px 14px}.package{display:block}.package .price{text-align:left;margin-top:20px}.book{height:379px;width:268px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="header"><div class="wrap">
+    <a class="logo" href="#top"><span class="logo-mark" aria-hidden="true">C</span><span>생기부의 결정적 차이</span></a>
+    <a href="#purchase" class="btn navy">구성·가격 확인 <span aria-hidden="true">↗</span></a>
+  </div></header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="main-title"><div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow light">중하위권 학부모를 위한 학생부종합전형 전략</p>
+        <h1 id="main-title">성적을 올리는 것만큼 중요한 <em>또 하나의 입시 카드.</em></h1>
+        <p class="hero-lead">아무리 어려운 탐구를 해도 생기부에 <strong>“심층적으로 탐구함”</strong> 한 줄만 남는다면, 대학은 무엇을 근거로 높은 평가를 내릴까요?<br><br>같은 활동도 <strong>평가 근거가 보이는 기록</strong>은 완전히 다릅니다.</p>
+        <div class="hero-meta"><span>내신 5등급제</span><span>학생부종합전형</span><span>CLEAR 5단계</span><span>과목별 주제 300개</span></div>
+        <div class="hero-actions"><a href="#briefing" class="btn">5분 핵심 영상 보기 ↓</a><a href="#purchase" class="btn line">전자책 구성 확인</a></div>
+      </div>
+      <div id="briefing" class="video-unit" aria-label="5분 설명 영상 영역">
+        <div class="video-frame" id="videoFrame"><div class="video-art" aria-hidden="true"></div>
+          <div class="video-placeholder" id="videoPlaceholder"><p class="small-top">5 MINUTE BRIEFING</p><div class="play" aria-hidden="true">▶</div><strong>좋은 생기부는<br>어떻게 성적 격차를<br>뒤집는 카드가 될까요?</strong><p>영상 삽입 위치 · 촬영본 연결 전</p></div>
+          <video id="videoPlayer" controls playsinline preload="metadata" aria-label="생기부의 결정적 차이 5분 설명 영상"></video>
+          <iframe id="videoEmbed" title="생기부의 결정적 차이 5분 설명 영상" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="video-foot"><span>진지환의 5분 설명 영상</span><span>전자책 + 300개 세특 주제집</span></div>
+      </div>
+    </div></section>
+
+    <section class="diagnosis" id="problem"><div class="wrap">
+      <div class="section-top"><p class="eyebrow">THE BLIND SPOT</p><h2>문제는 활동이 부족한 게 아니라,<br>평가할 근거가 부족한 것일 수 있습니다.</h2><p class="desc">학부모들이 가장 많이 고민하는 세 가지 질문을 하나씩 바꿔보겠습니다.</p></div>
+      <div class="problem-grid">
+        <article class="problem"><div class="problem-num">01 / 방법의 오해</div><h3>“어려운 탐구를 많이 해야 좋은 생기부 아닌가요?”</h3><p>활동이 아무리 대단해도 <strong>무엇을 근거로 역량을 인정해야 하는지</strong> 보이지 않으면 기록의 힘은 제한됩니다.</p></article>
+        <article class="problem"><div class="problem-num">02 / 가능성의 오해</div><h3>“우리 아이는 중하위권이라서 어렵지 않을까요?”</h3><p>평범한 수업의 질문·비교·계산·발표도 <strong>평가 가능한 학습 근거</strong>가 될 수 있습니다.</p></article>
+        <article class="problem"><div class="problem-num">03 / 결과의 오해</div><h3>“생기부가 좋아도 성적 차이는 못 뒤집지 않나요?”</h3><p>학종은 내신 순서대로 선발하는 전형이 아닙니다. <strong>서류에서 확인되는 학업역량</strong>은 판단의 중요한 자료입니다.</p></article>
+      </div>
+    </div></section>
+
+    <section class="compare" id="compare"><div class="narrow">
+      <div class="section-top"><p class="eyebrow">THE DECISIVE DIFFERENCE</p><h2>탐구는 같아도,<br>평가자가 내릴 수 있는 판단은 다릅니다.</h2><p class="desc">수학의 경사하강법을 다룬 같은 가상 활동을 두 가지 기록으로 비교해 보세요.</p></div>
+      <div class="compare-grid">
+        <article class="record a"><span class="label">일반적인 기록</span><h3>말은 화려하지만, 평가 근거는?</h3><blockquote>“경사하강법의 수학적 원리와 학습률에 따른 최적화 과정을 심층적으로 탐구하고, 탁월한 수학적 사고력과 문제해결능력을 보여줌.”</blockquote><p class="record-foot">무엇을 계산했는지, 어떤 결론을 검증했는지 나타나지 않습니다. ‘탁월하다’는 판단을 뒷받침할 장면이 부족합니다.</p></article>
+        <article class="record b"><span class="label">CLEAR를 적용한 기록</span><h3>실제로 평가할 수 있는 근거가 보입니다.</h3><blockquote>“학습률이 높을수록 최솟값에 빨리 도달하는지 의문을 갖고 이차함수에 경사하강법을 적용함. 학습률 0.1, 0.5, 1.1로 반복 계산한 결과를 표로 정리해 발표하고, 0.5에서는 한 번에 최솟값에 도달하지만 1.1에서는 발산함을 확인함. 학습률이 클수록 유리한 것은 아님을 이해하고, 다른 형태의 함수에서도 같은 결과가 나타나는지 질문함.”</blockquote><p class="record-foot">학생이 제기한 질문, 수행한 계산, 확인된 결과, 개념적 이해와 다음 질문이 한 문장 안에서 연결됩니다.</p></article>
+      </div>
+      <div class="takeaway">좋은 생기부는 “우리 아이가 뛰어납니다”라고 주장하는 기록이 아니라, <strong>대학이 그렇게 판단할 근거가 있는 기록</strong>입니다.</div>
+      <p class="fineprint">* 위 문장은 비교를 위한 가상 예시입니다. ‘0점짜리 기록’은 평가 근거가 부족하다는 비유이며, 특정 대학이 실제로 해당 항목에 0점을 부여한다는 의미는 아닙니다. 대학은 기록 전체와 성적·이수과목 등을 종합적으로 평가합니다.</p>
+    </div></section>
+
+    <section class="method" id="clear"><div class="wrap">
+      <div class="section-top"><p class="eyebrow light">THE CLEAR METHOD</p><h2>화려한 칭찬을,<br>평가할 수 있는 근거로 바꾸는 다섯 가지 질문.</h2><p class="desc">CLEAR는 학생의 실제 학습 경험에서 어떤 정보가 중요한지 살펴보는 저자의 분석 프레임워크입니다.</p></div>
+      <div class="step-grid">
+        <div class="method-step"><span class="letter">C</span><strong>Curiosity</strong><p>어떤 궁금증에서 시작했는가?</p></div>
+        <div class="method-step"><span class="letter">L</span><strong>Learning Action</strong><p>실제로 무엇을 어떻게 했는가?</p></div>
+        <div class="method-step"><span class="letter">E</span><strong>Evidence</strong><p>그 활동은 어떤 결과·자료·관찰로 확인되는가?</p></div>
+        <div class="method-step"><span class="letter">A</span><strong>Altered Perspective</strong><p>무엇을 새롭게 이해하거나 수정했는가?</p></div>
+        <div class="method-step"><span class="letter">R</span><strong>Roadmap</strong><p>다음에 어떤 질문으로 이어졌는가?</p></div>
+      </div>
+      <p class="method-foot">CLEAR는 대학의 공식 평가표가 아닙니다. 책의 완성형 예시에는 다섯 요소를 모두 보여주되, 실제 활동에서 없었던 경험을 만들어 넣는 방식은 권하지 않습니다.</p>
+    </div></section>
+
+    <section class="grading" id="grade"><div class="wrap grade-grid">
+      <div><p class="eyebrow">WHY NOW</p><h2>내신은 5등급제가 됐습니다.<br>그렇다면 생기부는?</h2><p class="lead">2025학년도 고교 입학생부터 적용되는 내신 5등급제에서 1등급 구간은 상위 10%입니다. 이전 9등급제에서는 상위 4%였죠.</p><p class="lead">학생들의 실제 학업역량이 갑자기 비슷해진 것은 아닙니다. <strong>석차등급 하나가 묶어 보여주는 학생의 범위가 더 넓어진 것</strong>입니다.</p><p class="lead">성적은 여전히 중요합니다. 동시에 학종에서는 성적표를 넘어 <strong>수업의 과정과 역량을 어떤 근거로 확인할 수 있는지</strong> 놓치지 말아야 합니다.</p></div>
+      <aside class="grade-card"><h3>1등급에 포함되는 누적 비율</h3><div class="grade-split"><div class="grade-metric"><div class="kicker">과거 9등급제</div><div class="value">4<span style="font-size:24px">%</span></div><div class="kicker">상위 4%까지</div></div><div class="grade-metric current"><div class="kicker">현행 5등급제</div><div class="value">10<span style="font-size:24px">%</span></div><div class="kicker">상위 10%까지</div></div></div><p class="grade-note">참고: 내신 제도 변화가 특정 대학의 합격선 또는 생기부 평가 비중 증가를 자동으로 의미하지는 않습니다.</p><p class="grade-note">자료: <a href="https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&amp;boardSeq=97551&amp;lev=0&amp;m=020402" target="_blank" rel="noopener noreferrer">교육부 2028 대입제도 개편 확정</a> · <a href="https://admission.snu.ac.kr/materials/guide_movie/admission_guide" target="_blank" rel="noopener noreferrer">서울대학교 학생부종합전형 서류평가 안내</a></p></aside>
+    </div></section>
+
+    <section class="author" id="author"><div class="wrap author-grid">
+      <div class="author-panel"><div class="author-title">FROM MY OWN ADMISSIONS JOURNEY</div><div class="big">“왜 어떤 학생은<br><span>성적만으로 설명되지 않는 결과</span>를 얻을까?”</div><p>과학고 조기졸업 · 당시 9등급제 내신 4등급대 · POSTECH 합격</p></div>
+      <div class="author-main"><p class="eyebrow">저자 진지환</p><h2>제가 이 문제에 집착하게 된 이유</h2><p>과학고 시절, 내신 4~5등급대 학생이 연세대·고려대에 합격하는 모습을 가까이에서 보았습니다. 저 역시 당시 내신 4등급대로 과학고를 조기졸업하고 포스텍에 합격했습니다.</p><p>그 차이를 이해하고 싶어 주요 대학의 입학사정관 설명회를 찾아다녔고, 입시 컨설팅에도 약 1,000만 원을 사용했습니다.</p><p>그 과정에서 주목한 것은 활동의 이름이 얼마나 화려한지가 아니라 <strong>학생의 역량을 평가할 수 있는 근거가 기록에 얼마나 남아 있는지</strong>였습니다.</p><div class="signature">진지환 · 《생기부의 결정적 차이》 저자</div><p class="author-note">* 저자의 학교는 과학고이며, 과거 9등급제 사례를 일반고 또는 현재 5등급제 성적으로 직접 환산할 수는 없습니다.</p></div>
+    </div></section>
+
+    <section class="product" id="package"><div class="wrap product-grid">
+      <div class="book-stage"><div class="book" role="img" aria-label="생기부의 결정적 차이 전자책 표지 시안"><div class="toptxt">THE DECISIVE DIFFERENCE</div><div><div class="book-title">생기부의<br><i>결정적</i><br>차이</div><div class="book-sub">같은 탐구활동도 전혀 다른 기록이 되는 이유</div></div><div class="bottomtxt">진지환 지음</div></div></div>
+      <div><p class="eyebrow">THE DIGITAL PACKAGE</p><h2>책 한 권과 300개의 주제.<br>이제 판단 기준과 시작점이 생깁니다.</h2><p class="lead">“생기부가 중요하다”는 말을 또 들을 필요는 없습니다. <strong>무엇이 평가 근거가 되는지</strong> 확인하고, 자녀에게 맞는 주제를 찾는 자료가 필요합니다.</p>
+        <div class="items"><div class="product-item"><div class="count">01</div><div><strong>전자책 《생기부의 결정적 차이》</strong><p>내신 5등급제와 중하위권의 기회, CLEAR 5단계, 여섯 교과의 실제 기록 비교를 담은 19장 구성.</p></div></div>
+          <div class="product-item"><div class="count">02</div><div><strong>2022 개정 교육과정 과목별 세특 탐구 주제 300개</strong><p>국어·수학·영어·사회·과학·정보 등 교과별 탐구 아이디어를 살펴보고 자녀에게 맞는 주제를 선택하기 위한 자료집.</p></div></div>
+        </div>
+        <div class="product-actions"><a class="btn navy" href="#purchase">전체 구성과 가격 확인 <span aria-hidden="true">↗</span></a><a class="btn line" href="#topics">탐구 주제 예시 보기 ↓</a></div>
+      </div>
+    </div></section>
+
+    <section class="topics" id="topics"><div class="wrap">
+      <div class="section-top"><p class="eyebrow">300 TOPIC LIBRARY</p><h2>“방법은 알겠는데,<br>우리 아이는 무슨 주제로 탐구하죠?”</h2><p class="desc">전자책을 읽은 뒤 자연스럽게 생기는 질문까지 준비했습니다. 아래는 자료집에서 다룰 수 있는 주제의 예시입니다.</p></div>
+      <div class="topic-grid">
+        <div class="topic-card"><span>수학 · 최적화</span><strong>경사하강법에서 학습률이 수렴 과정에 미치는 영향</strong></div>
+        <div class="topic-card"><span>물리 · 반도체</span><strong>반도체 에너지띠 간격과 LED 발광 파장의 관계</strong></div>
+        <div class="topic-card"><span>화학 · 전기화학</span><strong>네른스트 식을 이용한 전해질 농도와 전지 전압의 관계</strong></div>
+        <div class="topic-card"><span>생명과학 · 유전</span><strong>하디–바인베르크 평형의 성립 조건과 실제 집단의 차이</strong></div>
+        <div class="topic-card"><span>국어 · 문학</span><strong>신뢰할 수 없는 서술자가 등장하는 소설의 서술 전략 분석</strong></div>
+        <div class="topic-card"><span>사회 · 경제</span><strong>게임이론을 활용한 과점시장의 가격 경쟁과 담합 유인 분석</strong></div>
+      </div>
+      <p class="topic-caption">300개는 전부 수행할 목록이 아니라, 학생의 학습 수준과 수업 상황에 맞는 주제를 고르기 위한 선택지입니다.</p>
+    </div></section>
+
+    <section class="pricing" id="purchase"><div class="wrap">
+      <div class="section-top"><p class="eyebrow light">YOUR NEXT STEP</p><h2>다음 수행평가도<br>“심층적으로 탐구함”으로 끝내시겠습니까?</h2><p class="desc">지금부터는 활동을 더 많이 시키는 것만큼, 그 활동의 가치를 판단할 기준을 갖추는 일이 중요합니다.</p></div>
+      <div class="price-panel">
+        <div class="package"><div><div class="name">생기부의 결정적 차이<br>전자책 + 300개 주제집</div><span class="tag">디지털 자료 2종 패키지</span></div><div class="price"><div class="price-number">49,000<small>원</small></div></div></div>
+        <div class="payment-list">
+          <div class="payment-row"><span class="check">✓</span><span><strong>전자책 본편</strong> — 프롤로그, 19장, 에필로그</span></div>
+          <div class="payment-row"><span class="check">✓</span><span><strong>CLEAR 5단계</strong> — 평가 근거가 보이는 기록을 이해하는 구조</span></div>
+          <div class="payment-row"><span class="check">✓</span><span><strong>여섯 교과 비교 사례</strong> — 일반 기록과 CLEAR 기록의 차이</span></div>
+          <div class="payment-row"><span class="check">✓</span><span><strong>과목별 탐구 주제 300개</strong> — 주제 탐색 자료집</span></div>
+        </div>
+        <button class="btn wide" type="button" data-buy>49,000원에 패키지 구매하기 <span aria-hidden="true">↗</span></button>
+        <div class="purchase-hint">일회성 디지털 콘텐츠 패키지 · 결제 및 자료 제공 방법은 결제 단계에서 안내</div>
+        <div class="buy-status" id="buyStatus" role="status">현재 결제 링크가 연결되지 않았습니다. 게시 전에 이 페이지 하단 설정에 실제 결제 URL을 입력해주세요.</div>
+      </div>
+      <p class="legal-note">이 상품은 특정 대학 합격이나 내신 등급 역전을 보장하지 않습니다. 학교생활기록부는 교사가 정해진 기재 기준에 따라 작성합니다. 전자책은 입시·학습 정보 자료이며, CLEAR는 저자가 제안한 분석 구조입니다.</p>
+    </div></section>
+
+    <section class="faq" id="faq"><div class="wrap">
+      <div class="section-top"><p class="eyebrow">FAQ</p><h2>구매 전에 궁금한 점</h2></div>
+      <div class="faq-list">
+        <details><summary>중하위권 학생에게도 도움이 되나요?</summary><p>이 책은 특히 생기부를 일찍 포기하거나, 학교에서 한 활동의 의미를 어떻게 이해해야 할지 모르는 학부모를 염두에 두고 작성했습니다. 다만 성적과 활동의 수준을 무시한 채 좋은 문장만으로 합격할 수 있다는 뜻은 아닙니다.</p></details>
+        <details><summary>300개 주제를 전부 해야 하나요?</summary><p>아닙니다. 주제집은 선택지입니다. 학생의 수준, 과목별 수업 내용, 학교의 수행평가 및 교육활동 환경에 맞는 주제를 골라 실제로 수행할 수 있는 범위에서 탐구하는 것이 중요합니다.</p></details>
+        <details><summary>CLEAR로 생기부 문장을 직접 작성할 수 있나요?</summary><p>CLEAR는 학생이 수행한 활동과 학습의 근거를 정리해 이해하는 구조입니다. 공식 학교생활기록부는 교사가 학교 교육활동을 바탕으로 관찰·평가하여 작성하며, 본 자료는 허위 활동 작성이나 대필을 안내하지 않습니다.</p></details>
+        <details><summary>내신 5등급제 학생에게도 적용되나요?</summary><p>2025학년도 이후 고교 입학생에게 적용되는 새로운 내신 체제와 학생부종합전형의 기본적인 평가 관점을 함께 설명합니다. 실제 지원 전략은 대학·전형·모집단위별 최신 안내에 따라 달라집니다.</p></details>
+        <details><summary>구매 후 어떤 형태로 받나요?</summary><p>전자책과 탐구 주제집을 디지털 자료로 제공하는 구성을 기준으로 제작한 페이지입니다. 최종 파일 형식과 전달 방법, 환불·청약철회 안내는 판매 개시 전 결제 페이지에 표시될 예정입니다.</p></details>
+      </div>
+    </div></section>
+
+    <section class="last"><div class="narrow"><p class="eyebrow">ONE LAST QUESTION</p><h2>좋아 보이는 기록과<br>높게 평가할 근거가 있는 기록.<br>우리 아이에게 필요한 것은 어느 쪽일까요?</h2><p>성적을 올리는 공부는 계속해야 합니다. 동시에 이미 수행하는 학교 활동의 가치가 기록에서 사라지지 않도록, 판단 기준부터 갖춰보세요.</p><a class="btn navy" href="#purchase">전자책 + 300개 주제집 구성 확인 ↗</a></div></section>
+  </main>
+
+  <footer class="footer"><div class="wrap"><div class="footer-top"><div><strong>생기부의 결정적 차이</strong><p>진지환 지음 · 매일공부매니저</p></div><div><p>입시제도 참고: <a href="https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&amp;boardSeq=97551&amp;lev=0&amp;m=020402" target="_blank" rel="noopener noreferrer">교육부 2028 대입제도 개편 확정</a><br><a href="https://admission.snu.ac.kr/materials/guide_movie/admission_guide" target="_blank" rel="noopener noreferrer">서울대학교 학생부종합전형 서류평가 안내</a></p></div></div>
+      <div class="legal"><p>© 2026 매일공부매니저. 본 페이지는 판매 준비용 시안이며, 실제 판매 개시 전 사업자 정보·통신판매 관련 고지·개인정보 및 청약철회 안내를 추가해야 합니다.</p><p>예시 세특은 설명을 위해 구성한 가상의 기록입니다. 대학 합격, 평가점수 또는 성적 역전의 결과를 보장하지 않습니다. 모집요강 및 학교생활기록부 기재 기준은 변경될 수 있습니다.</p></div>
+    </div></footer>
+
+  <div class="mobile-dock"><div><small>전자책 + 300개 주제집</small><strong>49,000원</strong></div><a class="btn navy" href="#purchase">구성·구매 확인 ↗</a></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    // === 사이트 게시 전 아래 두 주소를 연결하세요. ===
+    // 영상: 공개 MP4 URL 또는 YouTube 주소(https://youtu.be/... / https://www.youtube.com/watch?v=...)
+    const VIDEO_URL = "";
+    // 결제: 실제 결제 페이지 URL (https://...)
+    const CHECKOUT_URL = "";
+    // ===========================================
+
+    const player = document.getElementById('videoPlayer');
+    const embed = document.getElementById('videoEmbed');
+    const placeholder = document.getElementById('videoPlaceholder');
+    const videoUrl = VIDEO_URL.trim();
+    function youtubeId(url){
+      try {
+        const u = new URL(url);
+        if (u.hostname === 'youtu.be' || u.hostname === 'www.youtu.be') return u.pathname.slice(1).split('/')[0];
+        if (['www.youtube.com','youtube.com','m.youtube.com'].includes(u.hostname)) {
+          if (u.pathname === '/watch') return u.searchParams.get('v');
+          if (u.pathname.startsWith('/embed/')) return u.pathname.split('/')[2];
+        }
+      } catch(e) {}
+      return null;
+    }
+    const yt = youtubeId(videoUrl);
+    if (yt && /^[a-zA-Z0-9_-]{11}$/.test(yt)) {
+      embed.src = 'https://www.youtube-nocookie.com/embed/' + yt + '?rel=0';
+      embed.style.display='block'; placeholder.style.display='none';
+    } else if (/^https:\/\//.test(videoUrl)) {
+      player.src = videoUrl; player.style.display='block'; placeholder.style.display='none';
+    }
+    let lastToast;
+    function showToast(msg){
+      const el=document.getElementById('toast');el.textContent=msg;el.classList.add('show');
+      clearTimeout(lastToast);lastToast=setTimeout(()=>el.classList.remove('show'),4300);
+    }
+    document.querySelectorAll('[data-buy]').forEach(b=>b.addEventListener('click',()=>{
+      if (/^https:\/\//.test(CHECKOUT_URL)) window.location.assign(CHECKOUT_URL);
+      else {document.getElementById('buyStatus').style.display='block';showToast('결제 링크 연결 전입니다. 판매 개시 전 연결이 필요합니다.');}
+    }));
+  </script>
+</body>
+</html>
